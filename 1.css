@@ -1,0 +1,186 @@
+.intro {
+    background: url(../images/01.jpg) center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+*,
+*:after,
+*:before { 
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.header__logo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav__link {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color .3s linear;
+    align-items: center;
+}
+
+
+.nav__link:hover {
+    color: #fce38a;
+}
+
+
+.intro__title {
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.intro__title:after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 60px auto;
+}
+
+.intro__suptitle {
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.intro__suptitle {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.intro__subtitle {
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: background .3s linear ,color .3s linear;
+}
+
+
+
+
+
+.intro__subtitle:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
